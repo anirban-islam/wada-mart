@@ -1,0 +1,269 @@
+*{ 
+     margin: 0;
+    padding: 0;
+    font-family: cursive;; 
+}
+
+.header { 
+    display:flex;
+    width: 1288px;
+    height: 80px;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px; 
+    background-color:antiquewhite ;
+    margin-left: 10px;
+    margin-right: 10px;
+      
+}
+
+.logo{
+    width: 200px;
+    display:inline-block;
+    justify-content: space-between;
+}
+
+.logo img{
+        width: 180px;
+        height: 80px;      
+}
+
+.Search{   
+    margin-left: 157px;
+    width:450px;
+    justify-content: space-between;
+    padding: 17px;
+}
+
+.input{
+    background-color: #d5d5d5;
+    border: 2px solid #ff1212;
+    border-radius: 8px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.input input{
+    width: 400px;
+    height: 34px;
+    display: inline;
+    background-color: #d5d5d5;
+    border-right: px solid red;
+    box-shadow: red;
+    border: red;
+    border-right: 3px solid red;
+    color: red;
+}
+
+.input img{
+    width: 17px;
+    height: 17px;
+    margin-left: 5px;
+}
+
+.Number{
+    width: 200px;
+    display:inline-block;
+    justify-items: center;
+    text-align:start;
+    padding: 25px;
+}
+
+.Number img{
+    width: 20px;
+    height: 17px;
+    display: inline;   
+}
+
+.Number h3{
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+.Cart{
+    width: 200px;
+    display:inline-block;
+    justify-items: center;
+    text-align: center;
+}
+
+.icart{
+    width: 25px;
+    height: 25px;
+    justify-items: center;
+    text-align: center;
+    display:inline-block;
+    padding: 25px;
+}
+
+.iacc{
+    width: 25px;
+    height: 25px;
+    justify-items: center;
+    text-align: center;
+    display: inline;
+    padding: 25px;
+}
+
+.nav{
+    display: inline-block;
+
+
+    
+ 
+}
+
+.nav1{
+    text-align: center; 
+    justify-content: center;
+
+}
+.li1{
+
+    text-align: center; 
+    justify-content: center;
+}
+.li1 a {
+    
+    text-decoration: none;
+    display: flex;
+    
+    text-align: center;
+   justify-content: space-between;
+    width: 200px;
+    background-color:antiquewhite ;
+    margin-left: 10px;
+    padding-right: px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 50px;
+    
+}
+.li1 a:hover {
+    background-color: #ff1212;
+}
+   
+.imgs { 
+    width:1075px;
+    position: relative;
+    
+    margin-left: 260px;
+    margin-top: -513px;
+    height: 510px;
+    margin-bottom: -1px;
+    border: 2px solid greenyellow;
+   overflow: hidden;
+
+}
+.pic{
+    display: flex;
+    width: 100%;
+    background-color:red ;
+  
+
+}
+.pic img{
+    
+    height: 483px;
+    width: 100%;
+    transition: all 0.15s ease;
+
+}
+.dot1{
+    
+    display: inline block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50%;
+
+}
+.dot1 input{
+
+    position: relative;
+    
+}
+    
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-color:
+    margin-top: 300px;
+   
+}
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+
+.headb {
+    margin-right: 10px;
+    width: 1309px;
+    margin-right: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 23px;
+    padding: 8px;
+    border: 2px solid red;
+    margin-bottom: 10px;
+}
+.headb marquee{
+    color: rgb(247, 15, 15);
+}
+.mh3{
+    justify-content: center;
+    text-align: center;
+    
+    
+    display: flex;
+    width: 1310px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color:antiquewhite ;
+}
+
+.maingro{
+    display:flex;
+    width: 1310px;
+    height: 800px;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px; 
+    background-color:antiquewhite ;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top:30px;
+    padding-left:10px;
+}
+
+   .item{
+    padding: 26px;
+    background-color: #ff1212;
+    height: 500px;
+    border: 2px solid greenyellow;
+    
+   } 
+
+.proimg{
+    width: 250px;
+    height: 300px;
+    border: 2px solid greenyellow;
+   
+    
+}
+.iteamimg{
+    padding: 10px;
+}
