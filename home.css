@@ -97,6 +97,7 @@
     text-align: center;
     display:inline-block;
     padding: 25px;
+    transition: all .4s;
 }
 
 .iacc{
@@ -247,12 +248,13 @@
     margin-right: 10px;
     padding-top:30px;
     padding-left:10px;
+    margin-bottom: 10px;
 }
 
    .item{
-    padding: 26px;
-    background-color: #ff1212;
-    height: 500px;
+    padding: 25px;
+    background-color: #eedede;
+    height: 700px;
     border: 2px solid greenyellow;
     
    } 
@@ -266,4 +268,122 @@
 }
 .iteamimg{
     padding: 10px;
+    
+}
+.itemdis h1{
+    color: #ff1212;
+    font-size: 20px;
+    margin-left: 31px;
+}
+
+.itemdis p{
+    font-size: 15px;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+.itemdis p label{
+    width: 100px;
+    display: flex;
+    color: #ff1212;
+}
+.Buy{
+    width: 154px;
+    height: 35px;
+    padding: 5px;
+    background-color: yellow;
+    font-size: 16px;
+    border: 2px solid red;
+    margin-left: px;
+    margin-top: 10px;
+    transition: all 0.4s;
+}
+.quantity1{
+    padding: 5px;
+    width: 100px;
+    padding-top: 10px;
+    height: 15px;
+    border: 2px solid red;
+}
+.Buy:hover{
+    background-color:red;
+    color: white;
+    border: 2px solid  yellow;
+    transform: scale(.9);
+
+}
+.acart {
+   color:#ff1212 ;
+   
+   display: inline-block;
+   font-size: 26px;
+   text-align: center;
+   
+}
+.icart:hover {
+    transform: scale(1.4);
+}
+
+.foot1 {
+    display: flex;
+    width: 1300px;
+    
+    margin-top: 800px;
+    margin-left: -1322px;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    border-top: 5px  solid greenyellow;
+    border-left: 5px  solid greenyellow;
+    border-right: 5px  solid greenyellow;
+    height: 400px;
+   
+   
+
+}
+.subfoot h2{
+    font-size: 20px;
+  
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}
+.flist1 li {
+
+    list-style-type: none;
+    line-height: 40px;
+    
+}
+
+.flist1 li a{
+    text-decoration: none;
+    padding: 5px;
+}
+.flist1 li a:hover{
+    color: #ff1212;
+}
+
+.foot2{
+ 
+    display: flex;
+    width: 1320px;
+    border-bottom: 5px  solid greenyellow;
+    border-left: 5px  solid greenyellow;
+    border-right: 5px  solid greenyellow;
+    margin-left: -1322px;
+    margin-bottom: 300px;
+    height: 40px;
+    justify-content: center;
+    color: #ff1212;
+    text-decoration: none;
+  
+}
+.foot2 a{
+    text-decoration: none;
+    color: #ff1212;
+
+}
+.foot2 a:hover{
+    background-color:black;
+    color: white;
 }
